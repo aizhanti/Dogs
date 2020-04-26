@@ -13,3 +13,5 @@ https://docs.thedogapi.com/
 ```
 
 WIP
+
+knex, express, psql
