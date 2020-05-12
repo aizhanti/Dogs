@@ -6,4 +6,5 @@ const data = require("../data/favoriteDogsDB");
 
 data.favoriteDogsDB.forEach(dog => {
   // models.favDogs.create(dog);
+  console.log(models.favDogs.list());
 });
