@@ -1,0 +1,22 @@
+{
+  "favoriteDogsDB": [
+    {
+      "id": 19191,
+      "url": "https://cdn2.thedogapi.com/images/HJ7Pzg5EQ_1280.jpg",
+      "name": "Golden Retriever",
+      "temperament": "Intelligent, Kind, Reliable, Friendly, Trustworthy, Confident",
+      "lifeSpan": "10 - 12 years",
+      "height": "55 - 61",
+      "weight": "25 - 34"
+    },
+    {
+      "id": 19192,
+      "url": "https://cdn2.thedogapi.com/images/36TXlWMDf.jpg",
+      "name": "Akita",
+      "temperament": "Docile, Alert, Responsive, Dignified, Composed, Friendly, Receptive, Faithful, Courageous",
+      "lifeSpan": "10 - 14 years",
+      "height": "61 - 71",
+      "weight": "29 - 52"
+    }
+  ]
+}
