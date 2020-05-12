@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 const db_config = {
   pool: { min: 0, max: 10 },
 
