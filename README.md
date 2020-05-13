@@ -15,4 +15,6 @@ JavaScript, HTML, CSS, Knex, Express, Psql, Apollo, GraphQL
 https://docs.thedogapi.com/
 ```
 
-![Image description](link-to-image)
+# Preview
+
+![Preview](https://github.com/aizhanti/Dogs/blob/master/data/sample.png)
