@@ -118,6 +118,7 @@ const resolvers = {
 			return models.favDogs.list();
 		},
 		deleteFavDog: (_, args) => {
+			console.log("DELETING???", args.id)
 			return knex("fav_dogs").del().where("id", "=", args.id);
 		},
 	}
