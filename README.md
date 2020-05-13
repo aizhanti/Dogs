@@ -2,6 +2,10 @@
 
 This was created during my time as a student at Code Chrysalis
 
+# Preview
+
+![Preview](https://github.com/aizhanti/Dogs/blob/master/data/sample.png)
+
 # Technologies Used
 
 ```
@@ -15,6 +19,9 @@ JavaScript, HTML, CSS, Knex, Express, Psql, Apollo, GraphQL
 https://docs.thedogapi.com/
 ```
 
-# Preview
+# How to run
 
-![Preview](https://github.com/aizhanti/Dogs/blob/master/data/sample.png)
+```
+yarn hack:server
+yarn hack:client
+```
