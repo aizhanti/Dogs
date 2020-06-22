@@ -1,4 +1,4 @@
-// const { knex } = require('./knexfile');
+const { knex } = require('./knexfile');
 
 const BASE_API_URL = 'https://api.thedogapi.com/v1';
 
