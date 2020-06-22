@@ -75,16 +75,13 @@ const getDogByBreed = async (breedId) => {
 };
 
 const changeDog = () => {
-	console.log(event.target.value);
 	getDogByBreed(event.target.value);
 	TARGETDOG = event.target.value;
 };
 
 const addToFavs = async () => {
-	console.log(TARGETDOG, IMGURL, BREEDS.name);
-	// await knex('fav_dos').insert(BREEDS.name, BREEDS.temperament, BREEDS.life_span, BREEDS.height, BREEDS.weight);
-	// const ins_fav_dogs = await knex('fav_dos').select();
-	// console.log(ins_fav_dogs);
+	await knex('fav_dos').insert(BREEDS.name, BREEDS.temperament, BREEDS.life_span, BREEDS.height, BREEDS.weight);
+	const ins_fav_dogs = await knex('fav_dos').select();
 };
 
 fetchDogBreeds();
